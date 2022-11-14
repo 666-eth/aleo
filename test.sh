@@ -5,7 +5,7 @@ git clone https://github.com/AleoHQ/snarkOS.git --depth 1
 cd snarkOS
 ./build_ubuntu.sh
 snarkos account new >>/root/aleo.key
-wall=$(snarkos account new)  >>/root/123aleo.key
+wall=$(snarkos account new)
 private_key=${wall:16:59}
 view_key=${wall:91:53}
 address=${wall:160:63}
