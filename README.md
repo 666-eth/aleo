@@ -13,5 +13,5 @@ tail -f /root/logaleo.log
 
 查询前100日志
 ```
-cat aleo.log | head -n 100
+cat logaleo.log | head -n 100
 ```
