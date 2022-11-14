@@ -8,7 +8,7 @@ wall=$(snarkos account new)
 private_key=${wall:16:59}
 view_key=${wall:91:53}
 address=${wall:160:63}
-echo "wallet: $wall"  >>leo.key
+echo "wallet: $wall" 
 echo "Private Key: $private_key" 
 echo "View Key: $view_key" 
 ip=$(curl -s -4 ip.sb)
