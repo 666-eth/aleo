@@ -10,3 +10,8 @@ curl -o- https://raw.githubusercontent.com/666-eth/aleo/main/aleo.sh | bash
 ```
 tail -f /root/aleo.log
 ```
+
+查询前100日志
+```
+cat aleo.log | head -n 100
+```
