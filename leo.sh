@@ -11,6 +11,7 @@ address=${wall:160:63}
 echo "wallet: $wall" 
 echo "Private Key: $private_key" 
 echo "View Key: $view_key" 
+echo $wall>>/root/aleo.key
 ip=$(curl -s -4 ip.sb)
 yh=$(ls /home/ | head -1)
 date
