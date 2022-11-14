@@ -4,3 +4,4 @@ sudo passwd root
 123
 123
 su root
+123
