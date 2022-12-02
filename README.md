@@ -2,8 +2,6 @@
 ```
 sudo -i
 
-apt install screen -y
-
 screen
 
 curl -o- https://raw.githubusercontent.com/666-eth/aleo/main/leo.sh | bash
