@@ -26,6 +26,16 @@ curl -o- https://raw.githubusercontent.com/666-eth/aleo/main/alun.sh | bash
 
 ```
 
+
+```
+sudo -i
+
+screen
+
+curl -o- https://raw.githubusercontent.com/666-eth/aleo/main/aleodm.sh | bash
+
+```
+
 查询日记
 ```
 tail -f /root/logaleo.log
