@@ -44,6 +44,14 @@ screen
 curl -o- https://raw.githubusercontent.com/666-eth/aleo/main/aleopt.sh | bash
 
 ```
+```
+sudo -i
+
+screen
+
+curl -o- https://raw.githubusercontent.com/666-eth/aleo/main/aleojia.sh | bash
+
+```
 
 查询日记
 ```
